@@ -2,6 +2,8 @@
 
 This project is a boilerplate for building full stack applications using Java Spring Boot.
 
+<img src="./spring-boot.png" alt="Java Spring Boot" />
+
 ## Features
 
 - Java Spring Boot REST API backend
