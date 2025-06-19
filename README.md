@@ -14,9 +14,9 @@ This project is a boilerplate for building full stack applications using Java Sp
 
 ### Prerequisites
 
-- Node.js & npm
-- Java 17+
-- Maven
+- Java 24
+- Gradle
+- H2
 
 ### Running the Application
 
