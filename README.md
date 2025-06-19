@@ -1,4 +1,4 @@
-# Full Stack - React and Java Spring Boot
+# Java Spring Boot
 
 This project is a boilerplate for building full stack applications using Java Spring Boot.
 
