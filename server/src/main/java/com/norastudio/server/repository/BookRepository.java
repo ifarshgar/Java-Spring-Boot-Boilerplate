@@ -1,8 +1,8 @@
-package com.norastudio.server.dao;
+package com.norastudio.server.repository;
 
-import com.norastudio.server.entity.Book;
+import com.norastudio.server.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BookRepository extends JpaRepository<Book, Long> {
-    
+
 }
