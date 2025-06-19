@@ -2,9 +2,11 @@ package com.norastudio.server.model;
 
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
 @Table(name = "book")
+@Data
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -31,18 +33,4 @@ public class Book {
 
     @Column(name = "available_copies")
     private int availableCopies;
-
-    public Book() {
-
-    }
-
-    public Book(String title, String author, String isbn, String description, String image, float price, int availableCopies) {
-        this.title = title;
-        this.author = author;
-        this.isbn = isbn;
-        this.description = description;
-        this.image = image;
-        this.price = price;
-        this.availableCopies = availableCopies;
-    }
 }
